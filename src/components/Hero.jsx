@@ -107,7 +107,7 @@ const Hero = () => {
               {/* Avatar placeholder / Container */}
               <div className="absolute inset-8 rounded-full bg-gradient-to-tr from-light-accent to-purple-500 dark:from-dark-accent dark:to-purple-800 p-1 overflow-hidden shadow-2xl">
                  <div className="w-full h-full rounded-full bg-white dark:bg-dark-bg flex items-center justify-center overflow-hidden">
-                    <img src="/Manav Formal Image.png" alt="Manav Singla" className="w-full h-full object-cover rounded-2xl" />
+                    <img src="/manav-formal-image.png" alt="Manav Singla" className="w-full h-full object-cover rounded-2xl" />
                  </div>
               </div>
             </div>
