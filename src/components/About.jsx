@@ -11,7 +11,7 @@ const About = () => {
         <div className="max-w-4xl mx-auto flex flex-col md:flex-row gap-12 items-center">
           <div className="md:w-1/3 relative">
             <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl bg-gradient-to-tr from-light-accent to-purple-500 dark:from-dark-accent dark:to-purple-800 p-1">
-               <img src="/Manav%20Formal%20Image.png" alt="Manav Singla" className="w-full h-full object-cover rounded-2xl" />
+               <img src="/manav-formal-image.png" alt="Manav Singla" className="w-full h-full object-cover rounded-2xl" />
             </div>
           </div>
           <div className="md:w-2/3 text-lg text-slate-600 dark:text-slate-300 space-y-4">
