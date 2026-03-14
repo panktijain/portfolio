@@ -39,17 +39,17 @@ const Achievements = () => {
   ];
 
   return (
-    <section className="py-20 relative bg-slate-50 dark:bg-slate-800/50">
+    <section id="achievements" className="py-20 relative bg-slate-50 dark:bg-slate-800/50">
       <div className="container mx-auto px-6 md:px-12">
-        
+
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
-          
+
           {/* Achievements Column */}
           <div>
             <h2 className="text-3xl font-bold text-light-text dark:text-dark-text inline-block border-b-4 border-light-accent dark:border-dark-accent pb-2 mb-10 flex items-center">
               <span className="mr-3">🌟</span> Milestones & Leadership
             </h2>
-            
+
             <div className="space-y-6">
               {achievements.map((item, idx) => (
                 <div key={idx} className="glass p-6 rounded-2xl flex items-start space-x-4 group hover:shadow-xl transition-shadow">
@@ -72,7 +72,7 @@ const Achievements = () => {
             <h2 className="text-3xl font-bold text-light-text dark:text-dark-text inline-block border-b-4 border-light-accent dark:border-dark-accent pb-2 mb-10 flex items-center">
               <span className="mr-3">📜</span> Certifications
             </h2>
-            
+
             <div className="space-y-6">
               {certificates.map((cert, idx) => (
                 <div key={idx} className="glass p-6 rounded-2xl flex items-center space-x-6 group hover:translate-x-2 transition-transform">
