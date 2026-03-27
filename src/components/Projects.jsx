@@ -3,51 +3,34 @@ import AnimatedSection from './AnimatedSection';
 const Projects = () => {
   const projects = [
     {
-      title: "InsightFlow — Productivity Analysis",
-      date: "Dec 2025",
-      problem: "Teams and individuals lacked a centralized tool to track daily productivity patterns and identify time-wasting habits.",
-      solution: "Built a full-stack MERN application with JWT authentication, user-specific dashboards, and rich analytics including pie, bar, and line charts.",
-      impact: "Deployed to production with real users; aggregation pipelines reduced dashboard load time by ~60% compared to client-side computation.",
+      title: "AI-Powered Automated Blogging System",
+      date: "Apr 2025 - Aug 2025",
+      problem: "Manual blog production was slow and inconsistent for SEO-focused publishing goals.",
+      solution: "Engineered a fully automated SEO blogging workflow with URL and user-input pipelines, AI-generated content and visuals, and a Streamlit-based editor with one-click publishing.",
+      impact: "Enabled 100+ blogs/month, increased publishing speed by nearly 3x, and maintained 99.9% uptime with robust fallback and logging mechanisms.",
       features: [
-        "CRUD functionality for tasks",
-        "Daily and weekly analytics",
-        "MongoDB aggregation pipelines",
-        "Responsive charts (Pie, Bar, Line)"
+        "Google Gemini + Hugging Face content and image generation",
+        "Streamlit interface for preview, edit, and publish",
+        "Daily auto-post scheduler with reliability safeguards"
       ],
-      tags: ["React", "Node.js", "Express.js", "MongoDB", "JWT"],
-      github: "https://github.com/ManavSinghla/Time-and-productivity-analysis",
-      live: "https://time-and-productivity-analysis.vercel.app",
-      icon: "📊"
+      tags: ["Python", "Streamlit", "Gemini API", "Hugging Face", "REST APIs"],
+      github: "https://github.com/panktijain",
+      icon: "🤖"
     },
     {
-      title: "RouteMate — Ride Scheduling System",
-      date: "Sep 2025",
-      problem: "No efficient way to simulate optimal driver assignment in ride-sharing systems using shortest-path routing.",
-      solution: "Designed an OOP-based Java system using BFS for shortest-distance computation and PriorityQueue for VIP and time-based ride prioritization.",
-      impact: "Achieved O(V+E) time complexity for routing; PriorityQueue reduced average assignment time by 40% in benchmark simulations.",
+      title: "Hospital Management System",
+      date: "Dec 2024 - Mar 2025",
+      problem: "Hospitals needed secure, efficient workflows for patient records, appointments, and inter-department operations.",
+      solution: "Built and optimized a full-stack management platform with JWT-protected scheduling, dynamic booking workflows, analytics, Maps integration, and AI-assisted decision support.",
+      impact: "Handled 500+ patient records and 100+ daily appointments, improved operational flow by nearly 30%, reduced unauthorized access by 99%, and improved admin efficiency by 40%.",
       features: [
-        "OOP principles applied",
-        "BFS for shortest-distance computation",
-        "PriorityQueue for VIP and time-based prioritization"
+        "JWT access control and appointment automation",
+        "Google Maps API integration for precise navigation",
+        "OpenAI-powered assistance for admin workflows"
       ],
-      tags: ["Java", "OOP", "Collections", "BFS", "PriorityQueue"],
-      github: "https://github.com/ManavSinghla/Ride-SharingTaxi-Booking-App-Simulation",
-      icon: "🚗"
-    },
-    {
-      title: "Job Portal Platform",
-      date: "2025",
-      problem: "Job seekers and employers needed a streamlined platform to connect without the overhead of traditional job boards.",
-      solution: "Built a comprehensive full-stack platform with job listings, filtering, user authentication, and an application tracking system.",
-      impact: "End-to-end implementation covering auth, CRUD, and role-based access for both job seekers and employers.",
-      features: [
-        "Job listings and filtering",
-        "User authentication and profiles",
-        "Application tracking system"
-      ],
-      tags: ["Web Development", "Frontend", "Backend"],
-      github: "https://github.com/ManavSinghla/Job-Portal",
-      icon: "💼"
+      tags: ["React.js", "Node.js", "Express.js", "MongoDB", "JWT"],
+      github: "https://github.com/panktijain",
+      icon: "🏥"
     }
   ];
 
@@ -138,7 +121,7 @@ const Projects = () => {
         <AnimatedSection delay={0.3}>
           <div className="text-center mt-12">
               <a 
-                href="https://github.com/ManavSinghla?tab=repositories" 
+                href="https://github.com/panktijain?tab=repositories" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-block px-8 py-3 glass text-light-text dark:text-dark-text font-medium rounded-full hover:bg-slate-100 dark:hover:bg-white/5 hover:scale-105 transition-all duration-300"

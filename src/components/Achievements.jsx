@@ -3,40 +3,38 @@ import AnimatedSection from './AnimatedSection';
 const Achievements = () => {
   const achievements = [
     {
-      title: "200+ LeetCode Problems Solved",
-      subtitle: "Earned 100 Days Badge (2025)",
-      date: "Since Jun 2025",
-      icon: "🏆",
+      title: "3rd Position - Entrepreneurial Bootcamp",
+      subtitle: "Awarded by LPU's E-Cell for innovative project work",
+      date: "Sep 2024",
+      icon: "🥉",
       type: "Achievement"
-    },
-    {
-      title: "CEO, Club Twenty",
-      subtitle: "Student-led event & community organization",
-      date: "Since May 2025",
-      description: "Leading operations, team management, strategic planning, and college-wide event execution.",
-      icon: "💼",
-      type: "Leadership"
     }
   ];
 
   const certificates = [
     {
-      title: "ChatGPT-4 Prompt Engineering: ChatGPT, Generative AI & LLM",
-      issuer: "Infosys",
-      date: "Jul 2025 - Aug 2025",
-      icon: "🤖"
+      title: "Oracle Cloud Infrastructure 2025 Generative AI Certified Professional",
+      issuer: "Oracle University",
+      date: "Oct 2025",
+      icon: "☁️"
     },
     {
-      title: "Java Programming",
-      issuer: "LPU",
-      date: "Jan 2025 - May 2025",
-      icon: "☕"
+      title: "Oracle Cloud Infrastructure 2025 Data Science Certified Professional",
+      issuer: "Oracle University",
+      date: "Oct 2025",
+      icon: "📊"
     },
     {
-      title: "Introduction to Machine Learning",
-      issuer: "NPTEL",
-      date: "Jan 2025 - Apr 2025",
+      title: "Oracle AI Vector Search Certified Professional",
+      issuer: "Oracle University",
+      date: "Oct 2025",
       icon: "🧠"
+    },
+    {
+      title: "Cloud Computing",
+      issuer: "NPTEL",
+      date: "Apr 2025",
+      icon: "🌐"
     }
   ];
 
@@ -50,7 +48,7 @@ const Achievements = () => {
           <AnimatedSection>
             <div>
               <h2 className="text-3xl font-bold text-light-text dark:text-dark-text inline-block border-b-4 border-light-accent dark:border-dark-accent pb-2 mb-10 flex items-center">
-                <span className="mr-3">🌟</span> Milestones & Leadership
+                <span className="mr-3">🌟</span> Achievements
               </h2>
 
               <div className="space-y-6">

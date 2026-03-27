@@ -19,25 +19,24 @@ const Navbar = () => {
     { name: 'Projects', href: '#projects' },
     { name: 'Experience', href: '#experience' },
     { name: 'Certifications', href: '#achievements' },
-    { name: 'Why Hire Me', href: '#why-hire-me' },
     { name: 'Contact', href: '#contact' },
   ];
 
   return (
     <nav className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'glass py-3' : 'bg-transparent py-5'}`}>
-      <div className="container mx-auto px-6 md:px-12 flex justify-between items-center">
-        <a href="#" className="text-2xl font-bold text-dark-accent dark:text-dark-accent tracking-tighter hover:scale-105 transition-transform">
-          Manav<span className="text-light-text dark:text-dark-text">.dev</span>
+      <div className="container flex items-center justify-between px-6 mx-auto md:px-12">
+        <a href="#" className="text-2xl font-bold tracking-tighter transition-transform text-dark-accent dark:text-dark-accent hover:scale-105">
+          Pankti<span className="text-light-text dark:text-dark-text">.dev</span>
         </a>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex items-center space-x-8">
+        <div className="items-center hidden space-x-8 md:flex">
           <div className="flex space-x-6">
             {navLinks.map((link) => (
               <a 
                 key={link.name} 
                 href={link.href}
-                className="text-sm font-medium text-light-text dark:text-dark-text/80 hover:text-light-accent dark:hover:text-dark-accent transition-colors"
+                className="text-sm font-medium transition-colors text-light-text dark:text-dark-text/80 hover:text-light-accent dark:hover:text-dark-accent"
               >
                 {link.name}
               </a>
@@ -47,7 +46,7 @@ const Navbar = () => {
         </div>
 
         {/* Mobile Menu Button */}
-        <div className="md:hidden flex items-center space-x-4">
+        <div className="flex items-center space-x-4 md:hidden">
           <ThemeToggle />
           <button 
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
@@ -66,13 +65,13 @@ const Navbar = () => {
 
       {/* Mobile Menu Panel */}
       {isMobileMenuOpen && (
-        <div className="md:hidden glass absolute top-full left-0 w-full py-4 px-6 flex flex-col space-y-4 shadow-xl">
+        <div className="absolute left-0 flex flex-col w-full px-6 py-4 space-y-4 shadow-xl md:hidden glass top-full">
           {navLinks.map((link) => (
             <a 
               key={link.name} 
               href={link.href}
               onClick={() => setIsMobileMenuOpen(false)}
-              className="text-base font-medium text-light-text dark:text-dark-text hover:text-light-accent dark:hover:text-dark-accent transition-colors"
+              className="text-base font-medium transition-colors text-light-text dark:text-dark-text hover:text-light-accent dark:hover:text-dark-accent"
             >
               {link.name}
             </a>

@@ -10,38 +10,36 @@ const Skills = () => {
       title: "Languages",
       icon: "💻",
       skills: [
-        { name: "Java", level: 90 },
-        { name: "Kotlin", level: 85 },
-        { name: "C/C++", level: 85 },
-        { name: "Python", level: 75 },
-        { name: "JavaScript", level: 80 },
-        { name: "PHP", level: 70 },
+        { name: "JavaScript (ES6+)", level: 90 },
+        { name: "Java", level: 88 },
+        { name: "Node.js", level: 86 },
+        { name: "HTML", level: 92 },
+        { name: "CSS", level: 90 },
+        { name: "PHP", level: 75 },
       ]
     },
     {
-      title: "Frontend, Mobile & Frameworks",
+      title: "Frameworks",
       icon: "🎨",
       skills: [
-        { name: "React.js", level: 85 },
-        { name: "Jetpack Compose", level: 80 },
-        { name: "HTML/CSS", level: 90 },
-        { name: "XML", level: 85 },
-        { name: "Tailwind CSS", level: 85 },
-        { name: "Express.js", level: 75 },
-        { name: "jQuery", level: 70 },
+        { name: "React", level: 90 },
+        { name: "NodeJS", level: 86 },
+        { name: "Express.js", level: 85 },
+        { name: "Tailwind CSS", level: 88 },
+        { name: "Bootstrap", level: 85 },
       ]
     },
     {
-      title: "Databases & Others",
+      title: "Tools & Technologies",
       icon: "🗄️",
       skills: [
-        { name: "MongoDB & MySQL / PostgreSQL", level: 85 },
-        { name: "Vercel & Render", level: 80 },
-        { name: "Android Studio", level: 85 },
-        { name: "Postman", level: 80 },
-        { name: "Data Structures & Algorithms", level: 95 },
-        { name: "Object Oriented Programming", level: 90 },
-        { name: "Git & GitHub", level: 85 }
+        { name: "MySQL", level: 84 },
+        { name: "MongoDB", level: 88 },
+        { name: "Git/GitHub", level: 90 },
+        { name: "Cursor", level: 80 },
+        { name: "Postman", level: 86 },
+        { name: "Figma", level: 78 },
+        { name: "REST APIs", level: 90 }
       ]
     }
   ];
@@ -111,7 +109,7 @@ const Skills = () => {
           <div className="mt-16 text-center">
             <h3 className="mb-6 text-xl font-semibold text-slate-800 dark:text-slate-200">Soft Skills</h3>
             <div className="flex flex-wrap justify-center gap-3">
-              {["Problem-Solving", "Team Player", "Adaptability", "Leadership"].map((skill, idx) => (
+              {["Analytical Thinking", "Time Management", "Task Management", "Attention to Detail", "Leadership & Initiative-Taking", "Adaptability"].map((skill, idx) => (
                 <span
                   key={idx}
                   className="px-6 py-2.5 text-sm font-medium transition-all duration-300 rounded-full cursor-default glass text-light-text dark:text-dark-text hover:bg-light-accent hover:text-white dark:hover:bg-dark-accent hover:scale-105 hover:shadow-lg"
